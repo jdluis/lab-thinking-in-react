@@ -9,8 +9,6 @@ function SearchBar(props) {
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [strToSearch, isStock]);
 
-  
-
   const handleChange = (e) => {
     setStrToSearch(e.target.value);
   };
